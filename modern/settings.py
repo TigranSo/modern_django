@@ -22,7 +22,7 @@ TEMPLATES_DIRS = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-xhfd@c4d)@8g(8qf+zj!ocbp!r)8_l+h4w2h9h73y*md1@zv^_'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -139,9 +139,10 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 
 #отправка писем на почту
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'shop.modern.com@gmail.com'
-EMAIL_HOST_PASSWORD = 'coctacphklwfriql'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_HOST_USER = 'shop.modern.com@gmail.com'
+# EMAIL_HOST_PASSWORD = 'coctacphklwfriql'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
